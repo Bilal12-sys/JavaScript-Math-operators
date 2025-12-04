@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Expressions & Tasks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>MATH EXPRESSIONS & TASKS</h1>
+
+<!-- Math Operations -->
+<h2>What is 5 + 3?</h2>
+<div><button onclick="add()">Add</button></div>
+
+<h2>What is 10 - 4?</h2>
+<div><button onclick="sub()">Subtract</button></div>
+
+<h2>What is 6 × 3?</h2>
+<div><button onclick="mul()">Multiply</button></div>
+
+<h2>What is 20 ÷ 5?</h2>
+<div><button onclick="divi()">Divide</button></div>
+
+<h2>What is 10 % 3?</h2>
+<div><button onclick="mod()">Modulus</button></div>
+
+<!-- Variable Task -->
+<h2>Variable Math Task</h2>
+<div><button onclick="variableTask()">Run Variable Task</button></div>
+<div id="taskOutput" class="output-box"></div>
+
+<!-- Increment / Decrement -->
+<h2>Check ++a</h2>
+<div><button onclick="increment()">Check Increment</button></div>
+
+<h2>Check a++</h2>
+<div><button onclick="increment2()">Check Increment</button></div>
+
+<h2>Check --a</h2>
+<div><button onclick="decrement()">Check Decrement</button></div>
+
+<h2>Check a--</h2>
+<div><button onclick="decrement2()">Check Decrement</button></div>
+
+<!-- Expression -->
+<h2>Expression: --a - --b + ++b + b--</h2>
+<div><button onclick="showOutput()">Show Full Output</button></div>
+
+<!-- Greeting -->
+<h2>Greet User</h2>
+<div><button onclick="greetUser()">Greet Me</button></div>
+
+<!-- Multiplication Table -->
+<h2>Multiplication Table</h2>
+<div><button onclick="table()">Show Table</button></div>
+<div id="tableOutput" class="output-box"></div>
+
+<!-- Marks & Percentage -->
+<h2>Subject Marks Result</h2>
+<div><button onclick="marks()">Enter Marks</button></div>
+<div id="result" class="output-box"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
